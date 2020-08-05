@@ -1,9 +1,11 @@
-# df-helm-alpha
+# DreamFactory Helm Chart
 
-Alpha DreamFactory Helm Chart
+This project is an alpha, please proceed with caution using this in production.
 
 ## Quick Start
 
-`$ helm install dreamfactory . `
+Customize your system by modifying the values.yaml file.
 
-Then follow the notes that get printed out that setup port forwarding.
+To start the instance you can run: `$ helm install dreamfactory . `
+
+Then follow the notes that get printed out to setup port forwarding.
