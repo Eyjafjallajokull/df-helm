@@ -10,7 +10,7 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "4.3.1"
   env:
-    app_log_level: warning
+    app_log_level: debug
 
 imagePullSecrets: []
 nameOverride: "dreamfactory-app"
